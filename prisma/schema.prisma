@@ -9,8 +9,8 @@ generator client {
 // datasource：定义数据库类型和链接地址
 datasource db {
   provider  = "postgresql"
-  url       = env("postgres://5b37cdf9b4b6807cacb062471794fe76718b95336c10d76da8306ff25e770a86")
-  directUrl = env("Ppostgres://5b37cdf9b4b6807cacb062471794fe76718b95336c10d76da8306ff25e770a86:sk_JECwHVtWkvyp5c8oaJa9a@db.prisma.io:5432/postgres?sslmode=require&pool=true")  // reuse the same URL for direct connections
+  url       = env("postgres://5b37cdf9b4b6807cacb062471794fe76718b95336c10d76da8306ff25e770a86:sk_JECwHVtWkvyp5c8oaJa9a@db.prisma.io:5432/postgres?sslmode=require&pool=true")
+  directUrl = env("postgres://5b37cdf9b4b6807cacb062471794fe76718b95336c10d76da8306ff25e770a86:sk_JECwHVtWkvyp5c8oaJa9a@db.prisma.io:5432/postgres?sslmode=require&pool=true")  // reuse the same URL for direct connections
 }
 
 // model：定义数据库 Schema。
